@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="enjoy_learn_DBModelStoreContainer" CdmEntityContainer="enjoy_learn_DBEntities">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="enjoy_learn_DBModel.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="admin_name" ColumnName="admin_name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="enjoy_learn_DBModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="category_name" ColumnName="category_name" />
+          <ScalarProperty Name="parent_id" ColumnName="parent_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="course_lessons">
+      <EntityTypeMapping TypeName="enjoy_learn_DBModel.course_lessons">
+        <MappingFragment StoreEntitySet="course_lessons">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="order_number" ColumnName="order_number" />
+          <ScalarProperty Name="course_id" ColumnName="course_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="course_t">
+      <EntityTypeMapping TypeName="enjoy_learn_DBModel.course_t">
+        <MappingFragment StoreEntitySet="course_t">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="course_name" ColumnName="course_name" />
+          <ScalarProperty Name="creation_date" ColumnName="creation_date" />
+          <ScalarProperty Name="category_id" ColumnName="category_id" />
+          <ScalarProperty Name="instructor_id" ColumnName="instructor_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="instractors">
+      <EntityTypeMapping TypeName="enjoy_learn_DBModel.instractor">
+        <MappingFragment StoreEntitySet="instractor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="instractor_name" ColumnName="instractor_name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="creation_date" ColumnName="creation_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="trainees">
+      <EntityTypeMapping TypeName="enjoy_learn_DBModel.trainee">
+        <MappingFragment StoreEntitySet="trainee">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="trainee_name" ColumnName="trainee_name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="creation_date" ColumnName="creation_date" />
+          <ScalarProperty Name="is_active" ColumnName="is_active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="trainee_courses">
+      <EntityTypeMapping TypeName="enjoy_learn_DBModel.trainee_courses">
+        <MappingFragment StoreEntitySet="trainee_courses">
+          <ScalarProperty Name="trainee_id" ColumnName="trainee_id" />
+          <ScalarProperty Name="course_id" ColumnName="course_id" />
+          <ScalarProperty Name="registration_date" ColumnName="registration_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

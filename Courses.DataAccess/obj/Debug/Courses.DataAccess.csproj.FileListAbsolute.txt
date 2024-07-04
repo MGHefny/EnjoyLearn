@@ -1,0 +1,6 @@
+D:\Alx\enjoy_learn\learnApp\Courses.DataAccess\bin\Debug\Courses.DataAccess.dll
+D:\Alx\enjoy_learn\learnApp\Courses.DataAccess\bin\Debug\Courses.DataAccess.pdb
+D:\Alx\enjoy_learn\learnApp\Courses.DataAccess\obj\Debug\Courses.DataAccess.csprojAssemblyReference.cache
+D:\Alx\enjoy_learn\learnApp\Courses.DataAccess\obj\Debug\Courses.DataAccess.csproj.CoreCompileInputs.cache
+D:\Alx\enjoy_learn\learnApp\Courses.DataAccess\obj\Debug\Courses.DataAccess.dll
+D:\Alx\enjoy_learn\learnApp\Courses.DataAccess\obj\Debug\Courses.DataAccess.pdb
