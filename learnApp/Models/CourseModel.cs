@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+//model value for Course
 namespace learnApp.Models
 {
     public class CourseModel

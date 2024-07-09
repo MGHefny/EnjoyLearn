@@ -6,6 +6,7 @@ using System.Web;
 
 namespace learnApp.Areas.Admin.Models
 {
+    //function model for login 
     public class LoginModel
     {
         [EmailAddress]

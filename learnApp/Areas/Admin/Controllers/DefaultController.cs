@@ -8,6 +8,7 @@ namespace learnApp.Areas.Admin.Controllers
 {
     public class DefaultController : Controller
     {
+        //def controller
         // GET: Admin/Default
         public ActionResult Index()
         {

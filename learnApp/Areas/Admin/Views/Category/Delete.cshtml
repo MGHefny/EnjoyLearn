@@ -3,6 +3,7 @@
 @{
     ViewBag.Title = "Delete Category";
 }
+<!--this the view of the creat Delete-->
 
 <h2>Delete Category</h2>
 
@@ -29,7 +30,8 @@
 
     </dl>
 
-    @using (Html.BeginForm("DeletConfirmed","Category",FormMethod.Post)) {
+    @using (Html.BeginForm("DeletConfirmed", "Category", FormMethod.Post))
+    {
         @Html.AntiForgeryToken()
 
         <input type="hidden" name="Id" id="Id" value="@Model.Id" />

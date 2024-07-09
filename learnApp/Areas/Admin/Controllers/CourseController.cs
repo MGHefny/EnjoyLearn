@@ -9,7 +9,7 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace learnApp.Controllers
-{
+{//feature in futur admin can controle courses 
     public class courseController : Controller
     {
         private readonly IMapper mapper;

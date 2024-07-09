@@ -18,6 +18,7 @@ namespace learnApp.Areas.Admin.Controllers
         [HttpPost]
         public ActionResult Login(LoginModel logininfo)
         {
+            //login controller
             var adminService = new AdminService();
             var isLoggedIn = adminService.login(logininfo.Email, logininfo.Password);
             if (isLoggedIn)
@@ -27,6 +28,7 @@ namespace learnApp.Areas.Admin.Controllers
             }
             else
             {
+                //error message 
                 logininfo.Message = "Email or Password is incorrect!";
                 return View(logininfo);
             }

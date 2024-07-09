@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+//instractour featcher  will completein future
 namespace learnApp.Areas.Admin.Controllers
 {
     public class TrainerController : Controller
@@ -40,7 +40,7 @@ namespace learnApp.Areas.Admin.Controllers
         {
             return View();
         }
-
+        // instactours login 1
         // POST: Admin/Trainer/Create
         [HttpPost]
         public ActionResult Create(TrainerModel trainerData)

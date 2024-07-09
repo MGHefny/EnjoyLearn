@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+//model value for instractours
 namespace learnApp.Models
 {
     public class TrainerModel

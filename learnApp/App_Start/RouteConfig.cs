@@ -11,6 +11,7 @@ namespace learnApp
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+            //the main config
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(

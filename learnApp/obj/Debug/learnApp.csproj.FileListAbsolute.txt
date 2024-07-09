@@ -73,4 +73,3 @@ D:\Alx\enjoy_learn\learnApp\learnApp\obj\Debug\learnApp.pdb
 D:\Alx\enjoy_learn\learnApp\learnApp\bin\AutoMapper.dll
 D:\Alx\enjoy_learn\learnApp\learnApp\bin\AutoMapper.pdb
 D:\Alx\enjoy_learn\learnApp\learnApp\bin\AutoMapper.xml
-D:\Alx\enjoy_learn\learnApp\learnApp\obj\Debug\learnApp.csprojAssemblyReference.cache

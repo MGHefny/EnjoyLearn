@@ -144,8 +144,6 @@
     <Content Include="Areas\Admin\Views\Trainer\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Trainer\Index.cshtml" />
     <Content Include="Areas\Admin\Default\Index.cshtml" />
-    <Content Include="Areas\Admin\course\Create.cshtml" />
-    <Content Include="Areas\Admin\course\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -241,6 +239,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\course\" />
     <Folder Include="Areas\Instractor\Controllers\" />
     <Folder Include="Areas\Instractor\Models\" />
     <Folder Include="Areas\Instractor\Views\Shared\" />

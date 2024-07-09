@@ -16,6 +16,7 @@ namespace learnApp
         {
             var config = new MapperConfiguration(cfg =>
             {
+                //mapping table category in db with controllers category
                 cfg.CreateMap<category, categoryModel>()
                     .ForMember(dst => dst.Id, src => src.MapFrom(e => e.id))
                     .ForMember(dst => dst.name, src => src.MapFrom(e => e.category_name))

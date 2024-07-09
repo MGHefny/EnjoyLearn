@@ -32,7 +32,7 @@ namespace learnApp.Areas.Admin.Controllers
         {
             return View();
         }
-
+        //git  data from GUI to DB 
         [HttpPost]
         public ActionResult Create(categoryModel data)
         {
@@ -53,6 +53,7 @@ namespace learnApp.Areas.Admin.Controllers
 
         public ActionResult Edit(int? id)
         {
+            //Edit data of Category was inter
             if(id == null || id == 0)
             {
                 return RedirectToAction("index", "Home");
@@ -73,6 +74,7 @@ namespace learnApp.Areas.Admin.Controllers
             };
             return View(CategoryModel);
         }
+        //Send the data was edit from Gui to DB
         [HttpPost]
         public ActionResult Edit(categoryModel data)
         {
@@ -103,7 +105,7 @@ namespace learnApp.Areas.Admin.Controllers
             }
             return View(data);
         }
-
+        //delet function futuer
         public ActionResult Delete( int? Id)
         {
             if(Id != null)
